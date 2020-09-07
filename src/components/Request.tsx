@@ -30,7 +30,7 @@ export const Request = (props: any): any => {
                 setModalVisible(!modalVisible);
               }}
             >
-              <Text style={styles.textStyleClose}>Hide Modal</Text>
+              <Text style={styles.textStyleClose}>Hide</Text>
             </TouchableHighlight>
           </View>
         </View>
@@ -49,7 +49,7 @@ export const Request = (props: any): any => {
             {", "}
             {props.locations.cords.locality}
           </Text>
-      <Text style={styles.coords}>{props.locations.cords.latitude}{','}{props.locations.cords.longitude}</Text>
+      <Text style={styles.coords}>{props.locations.cords.latitude}{', '}{props.locations.cords.longitude}</Text>
         </View>
       </TouchableHighlight>
     </View>
@@ -101,9 +101,5 @@ const styles = StyleSheet.create({
     textAlign: "right",
     color: "#fecc50",
     fontWeight: "bold",
-  },
-  modalText: {
-    marginBottom: 15,
-    textAlign: "center",
-  },
+  }
 });

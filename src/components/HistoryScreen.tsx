@@ -53,11 +53,6 @@ const styles = StyleSheet.create({
     backgroundColor: "#1e0521",
     height: "100%",
   },
-  clearHistory: {
-    position: "absolute",
-    top: 700,
-    left: 160,
-  },
   noHistory: {
     height:"100%",
     backgroundColor: "#1e0521"
@@ -71,7 +66,7 @@ const styles = StyleSheet.create({
   },
 
   clear:{
-    backgroundColor: "green",
+    backgroundColor: "#0e069e",
     borderWidth: 3,
     borderColor: "#ff6d69",
     borderRadius: 20,
@@ -82,6 +77,8 @@ const styles = StyleSheet.create({
   clearText:{
       fontSize:32,
       padding:5,
+      color: "#fecc50",
+      textAlign:"center"
   }
 });
 

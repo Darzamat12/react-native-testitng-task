@@ -95,9 +95,6 @@ const styles = StyleSheet.create({
     borderRadius: 20,
     display: "flex",
   },
-  coords: {
-    color: "white",
-  },
   locality: {
     color: "#fecc50",
     fontSize: 18,
@@ -125,7 +122,6 @@ const styles = StyleSheet.create({
   },
   buttonText: {
     fontSize: 26,
-
     color: "#fecc50",
     textAlign: "center",
   },
